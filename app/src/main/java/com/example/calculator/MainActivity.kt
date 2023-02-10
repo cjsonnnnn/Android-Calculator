@@ -1,12 +1,10 @@
-package com.example.week_3
+package com.example.calculator
 
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import java.lang.Double.parseDouble
 
@@ -51,37 +49,6 @@ class MainActivity : AppCompatActivity() {
                 return false
             }
         }
-
-//        fun updateTextView(iT: View){
-//            var theButton = iT as Button
-//            var inputText = theButton.getText().toString()
-//            var curText = textView.text.toString()
-//            if(isNumeric(inputText)){                           // condition when numbers
-//                if(memOperation == null){                       // condition when there is no any operation happened before
-//                    textView.text = curText+inputText
-//                } else {                                        // condition when there is operation happened before
-//                    textView.text = inputText
-//                }
-//            } else {
-//                if(inputText == "="){                           // condition when "="
-//                    if(memOperation == "+"){
-//                        textView.text = memNumber?.let { operator.add(it.toFloat(), curText.toFloat()).toString() }
-//                    } else if (memOperation == "-") {
-//                        textView.text = memNumber?.let { operator.min(it.toFloat(), curText.toFloat()).toString() }
-//                    } else if (memOperation == "x") {
-//                        textView.text = memNumber?.let { operator.mul(it.toFloat(), curText.toFloat()).toString() }
-//                    } else if (memOperation == ":") {
-//                        textView.text = memNumber?.let { operator.div(it.toFloat(), curText.toFloat()).toString() }
-//                    }
-//                    // update memory number
-//                    memNumber = (textView.text as String?)?.toFloat()
-////                    memOperation = null
-//                } else {                                        // condition when "+, -, x, :"
-//                    memOperation = inputText                    // update memory operation
-//                    memNumber = curText.toFloat()               // update memory number
-//                }
-//            }
-//        }
 
         val clickListener = View.OnClickListener {
             var theButton = it as Button

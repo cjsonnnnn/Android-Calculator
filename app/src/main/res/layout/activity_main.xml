@@ -3,19 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/dark_black">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:fontFamily="@font/mn_bold"
         android:gravity="center|end"
-        android:padding="18dp"
-        android:text="23123"
-        android:textColor="@color/white"
-        android:textSize="81dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="30dp"
+        android:paddingHorizontal="9dp"
+        android:text="0"
+        android:textColor="@color/neon_blue"
+        android:textSize="99sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,6 +38,7 @@
             android:layout_height="99dp"
             android:layout_weight="1"
             android:orientation="horizontal"
+            android:paddingHorizontal="9dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -43,33 +47,55 @@
                 android:id="@+id/button7"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:text="7"
                 android:layout_weight="1"
-                android:text="7" />
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginHorizontal="9dp"
                 android:layout_weight="1"
-                android:text="8" />
+                android:text="8"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginEnd="9dp"
                 android:layout_weight="1"
-                android:text="9" />
+                android:text="9"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/buttonDiv"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text=":" />
+                android:text=":"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
         </LinearLayout>
 
@@ -79,6 +105,7 @@
             android:layout_height="99dp"
             android:layout_weight="1"
             android:orientation="horizontal"
+            android:paddingHorizontal="9dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -88,33 +115,55 @@
                 android:id="@+id/button4"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="4" />
+                android:text="4"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginHorizontal="9dp"
                 android:layout_weight="1"
-                android:text="5" />
+                android:text="5"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginEnd="9dp"
                 android:layout_weight="1"
-                android:text="6" />
+                android:text="6"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/buttonMul"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="x" />
+                android:text="x"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
         </LinearLayout>
 
@@ -124,6 +173,7 @@
             android:layout_height="99dp"
             android:layout_weight="1"
             android:orientation="horizontal"
+            android:paddingHorizontal="9dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -133,33 +183,55 @@
                 android:id="@+id/button1"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="1" />
+                android:text="1"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginHorizontal="9dp"
                 android:layout_weight="1"
-                android:text="2" />
+                android:text="2"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginEnd="9dp"
                 android:layout_weight="1"
-                android:text="3" />
+                android:text="3"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/buttonAdd"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="+" />
+                android:text="+"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
         </LinearLayout>
 
@@ -168,6 +240,7 @@
             android:layout_height="99dp"
             android:layout_weight="1"
             android:orientation="horizontal"
+            android:paddingHorizontal="9dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -177,33 +250,55 @@
                 android:id="@+id/buttonC"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="C" />
+                android:text="C"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/button0"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginHorizontal="9dp"
                 android:layout_weight="1"
-                android:text="0" />
+                android:text="0"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/buttonDot"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
+                android:layout_marginEnd="9dp"
                 android:layout_weight="1"
-                android:text="." />
+                android:text="."
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp"/>
 
             <Button
                 android:id="@+id/buttonMin"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="-" />
+                android:text="-"
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp" />
 
         </LinearLayout>
 
@@ -211,6 +306,7 @@
             android:layout_width="match_parent"
             android:layout_height="99dp"
             android:layout_weight="1"
+            android:paddingHorizontal="9dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -220,9 +316,14 @@
                 android:id="@+id/buttonRes"
                 android:layout_width="99dp"
                 android:layout_height="match_parent"
-                android:layout_marginHorizontal="3dp"
                 android:layout_weight="1"
-                android:text="=" />
+                android:text="="
+                android:backgroundTint="@color/light_black"
+                android:textSize="36dp"
+                android:textColor="@color/neon_blue"
+                app:cornerRadius="18dp"
+                app:strokeColor="@color/neon_blue"
+                app:strokeWidth="3dp" />
 
         </LinearLayout>
     </LinearLayout>

@@ -1,3 +1,3 @@
 <resources>
-    <string name="app_name">week-3</string>
+    <string name="app_name" translatable="false">Calculator</string>
 </resources>
