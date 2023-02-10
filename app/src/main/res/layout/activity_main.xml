@@ -90,11 +90,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text=":"
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_green"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_green"
                 app:strokeWidth="3dp"/>
 
         </LinearLayout>
@@ -158,11 +159,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="x"
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_green"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_green"
                 app:strokeWidth="3dp"/>
 
         </LinearLayout>
@@ -226,11 +228,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="+"
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_green"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_green"
                 app:strokeWidth="3dp"/>
 
         </LinearLayout>
@@ -252,11 +255,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="C"
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_red"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_red"
                 app:strokeWidth="3dp"/>
 
             <Button
@@ -293,11 +297,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="-"
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_green"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_green"
                 app:strokeWidth="3dp" />
 
         </LinearLayout>
@@ -318,11 +323,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="="
-                android:backgroundTint="@color/light_black"
+                android:textStyle="bold"
+                android:backgroundTint="@color/neon_yellow"
                 android:textSize="36dp"
-                android:textColor="@color/neon_blue"
+                android:textColor="@color/light_black"
                 app:cornerRadius="18dp"
-                app:strokeColor="@color/neon_blue"
+                app:strokeColor="@color/neon_yellow"
                 app:strokeWidth="3dp" />
 
         </LinearLayout>
